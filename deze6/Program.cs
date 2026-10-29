@@ -23,7 +23,7 @@ namespace CowBarn
             /// </summary>
             Cow cow1 = new Cow("Пипка", 4, 450, 18, "Здорова");
 
-            Cow cow2 = new Cow("Айнура", 3, 420, "Здорова");
+            Cow cow2 = new Cow("Козявка", 3, 420, "Здорова");
 
             Bull bull1 = new Bull("Семен", 5, 750, "Здоровый");
 
