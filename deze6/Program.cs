@@ -14,7 +14,7 @@ namespace CowBarn
         {
             Console.WriteLine("#1");
 
-            CowBarnManager barn = new CowBarnManager("Заря",10);
+            CowBarnManager barn = new CowBarnManager("Заря", 10);
 
             #region Создание и добавление животных
 
@@ -25,9 +25,9 @@ namespace CowBarn
 
             Cow cow2 = new Cow("Айнура", 3, 420, "Здорова");
 
-            Bull bull1 = new Bull("Семен",5,750, "Здоровый");
+            Bull bull1 = new Bull("Семен", 5, 750, "Здоровый");
 
-            Bull bull2 = new Bull("Лобанов",4,700,"Не здоров");
+            Bull bull2 = new Bull("Лобанов", 4, 700, "Не здоров");
 
 
             /// <summary>
@@ -85,7 +85,7 @@ namespace CowBarn
             /// </summary>
             Console.WriteLine("Работа с быками");
 
-            Console.WriteLine($"Бык {bull1.Name} доступен для разведения:{(bull1.CheckBreedingAvailability()? "Да" : "Нет" )}");
+            Console.WriteLine($"Бык {bull1.Name} доступен для разведения:{(bull1.CheckBreedingAvailability() ? "Да" : "Нет")}");
             Console.WriteLine();
             #endregion
 
